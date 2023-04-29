@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-roteiro">Roteiro</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -31,16 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Security](https://spring.io/projects/spring-security)
 
-## 💻 Projeto
-
-Esse projeto foi elaborado [nesse vídeo](https://youtu.be/hgLKOPHfuis) que demonstra como funciona o Spring Authorization Server e como utilizá-lo para autorizar requisições seguindo o Oauth 2.0 e OpenID Connect.
-
-## 🗒️ Roteiro
-
-- [ ] Arquitetura do sistema
-- [ ] spring-auth-server
-- [ ] client-server
-- [ ] resource-server
 
 ## 🚀 Como executar
 
