@@ -15,7 +15,6 @@ public class CryptoAESService {
 
     public static final String ALGORITHM = "AES";
 
-
     @Value("${crypto.aes.key}")
     private String AESKey;
 
