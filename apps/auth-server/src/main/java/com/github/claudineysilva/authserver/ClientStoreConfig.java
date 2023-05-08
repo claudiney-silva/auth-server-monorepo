@@ -27,8 +27,12 @@ public class ClientStoreConfig {
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
                 .redirectUri("http://127.0.0.1:8080/login/oauth2/code/client-server-oidc")
                 .scope(OidcScopes.OPENID)
+                .scope(OidcScopes.EMAIL)
                 .scope(OidcScopes.PROFILE)
-                .clientSettings(ClientSettings.builder().requireAuthorizationConsent(true).build())
+                .clientSettings(ClientSettings.builder()
+                        //.requireAuthorizationConsent(true)
+                        //.requireProofKey(true)
+                        .build())
                 .build();
 
         return new InMemoryRegisteredClientRepository(registeredClient);
